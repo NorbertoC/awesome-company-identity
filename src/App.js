@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/header';
+import FirstSection from './components/first-section/first-section';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <FirstSection />
       </div>
     );
   }
