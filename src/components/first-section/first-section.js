@@ -1,5 +1,5 @@
 import React from 'react';
-import './first-section.css';
+import './first-section.scss';
 
 const FirstSection = () => (
   <div className="first-section-container">
