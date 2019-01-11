@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import FirstSection from './components/first-section/first-section';
 
 class App extends Component {
