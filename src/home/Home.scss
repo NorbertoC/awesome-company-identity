@@ -1,0 +1,33 @@
+.home-container {
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-content-container {
+  padding: 6rem 2rem 2rem;
+}
+
+.home-company-name {
+  color: #393E46;
+  font-size: 3rem;
+  line-height: 3.625rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.home-paragraph {
+  margin-left: 2rem;
+  margin-right: 9rem;
+}
+
+.paragraph-text {
+  color: #929AAB;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+}
+
+.down-arrow {
+  justify-content: flex-end;
+}

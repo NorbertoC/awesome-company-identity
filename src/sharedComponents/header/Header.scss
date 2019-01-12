@@ -1,0 +1,17 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.label {
+  font-size: 1rem;
+  color: #929AAB;
+}
+
+.image {
+  align-self: center;
+}
