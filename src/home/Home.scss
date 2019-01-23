@@ -1,33 +1,40 @@
+@import "../sharedComponents/themes.scss";
+
 .home-container {
   height: 40rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
 
-.home-content-container {
-  padding: 6rem 2rem 2rem;
-}
+  &--title-container {
+    padding: 2rem;
 
-.home-company-name {
-  color: #393E46;
-  font-size: 3rem;
-  line-height: 3.625rem;
-  font-weight: bold;
-  font-style: italic;
-}
+    &__title {
+      color: $dark2;
+      font-size: 3rem;
+      line-height: 3.625rem;
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
 
-.home-paragraph {
-  margin-left: 2rem;
-  margin-right: 9rem;
-}
+  &--slogan-container {
+    width: 6rem;
+    margin: 2rem 2rem 2rem 2rem;
 
-.paragraph-text {
-  color: #929AAB;
-  font-size: 1rem;
-  line-height: 1.1875rem;
-}
 
-.down-arrow {
-  justify-content: flex-end;
+    &__text {
+      text-transform: uppercase;
+      margin: 0;
+      font-weight: 400;
+      color: $light-dark2;
+      font-size: 1rem;
+      line-height: 1.1875rem;
+    }
+  }
+
+  &__arrow {
+    justify-content: flex-end;
+  }
+
 }
