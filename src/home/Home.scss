@@ -1,9 +1,10 @@
-@import "../sharedComponents/themes.scss";
+@import "../sharedComponents/colors.scss";
 
 .home-container {
   // @NorbertoCarosella - Porque tiene un height definido el container?
   height: 40rem;
   display: flex;
+  // TODO - Revisar justify, flex-direction, align-items
   flex-direction: column;
   justify-content: space-between;
 
