@@ -1,6 +1,7 @@
 @import "../sharedComponents/themes.scss";
 
 .home-container {
+  // @NorbertoCarosella - Porque tiene un height definido el container?
   height: 40rem;
   display: flex;
   flex-direction: column;
@@ -10,6 +11,7 @@
     padding: 2rem;
 
     &__title {
+      // TODO - Centrar.
       color: $dark2;
       font-size: 3rem;
       line-height: 3.625rem;
@@ -19,6 +21,7 @@
   }
 
   &--slogan-container {
+    // TODO - Alinear con diseño definido.
     width: 6rem;
     margin: 2rem 2rem 2rem 2rem;
 
