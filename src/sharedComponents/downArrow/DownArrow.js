@@ -1,10 +1,10 @@
 import React from 'react';
 import './DownArrow.scss';
-import downArrow from '../../assets/DownArrow.png';
+import downArrow from '../../assets/DownArrow.svg';
 
 const DownArrow = () => (
   <div className="down-arrow-container">
-    <img src={downArrow} alt="arrow" width="21" height="10" className="image" />
+    <img src={downArrow} alt="downArrow" className="image" />
   </div>
 );
 

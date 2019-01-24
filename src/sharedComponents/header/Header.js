@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Header.scss';
-import burgerImg from '../../assets/Burguer.png';
-import logoImg from '../../assets/Logo.png';
+import burgerImg from '../../assets/Burguer.svg';
+import logoImg from '../../assets/Logo.svg';
 
 const Header = ({ label }) => (
   <div className="header-container">
-    <p className="label">{label}</p>
-    <img src={logoImg} alt="burger" width="106" height="47" className="image" />
-    <img src={burgerImg} alt="burger" width="18" height="16" className="image" />
+    <p className="header-container__title">{label}</p>
+    <img src={logoImg} alt="Logo" className="header-container__logo" />
+    <img src={burgerImg} alt="burger" className="header-container__burguer" />
   </div>
 );
 

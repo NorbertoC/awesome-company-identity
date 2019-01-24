@@ -8,15 +8,15 @@ const Home = () => (
   <div className="home-container">
     <Header label="Home" />
 
-    <div className="home-content-container">
-      <p className="home-company-name">Awesome Company Name</p>
+    <div className="home-container--title-container">
+      <p className="home-container--title-container__title">Awesome Company Name</p>
     </div>
 
-    <div className="home-paragraph">
-      <p className="paragraph-text">Stan here Chewbie, here we go.</p>
+    <div className="home-container--slogan-container">
+      <p className="home-container--slogan-container__text">Insert awesome slogan here</p>
     </div>
 
-    <div className="down-arrow">
+    <div className="home-container__arrow">
       <DownArrow />
     </div>
   </div>
