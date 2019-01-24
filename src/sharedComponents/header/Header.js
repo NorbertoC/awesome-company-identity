@@ -6,9 +6,9 @@ import logoImg from '../../assets/Logo.svg';
 
 const Header = ({ label }) => (
   <div className="header-container">
-    <p className="label">{label}</p>
-    <img src={logoImg} alt="Logo" className="image" />
-    <img src={burgerImg} alt="burger" className="image" />
+    <p className="header-container__title">{label}</p>
+    <img src={logoImg} alt="Logo" className="header-container__logo" />
+    <img src={burgerImg} alt="burger" className="header-container__burguer" />
   </div>
 );
 

@@ -1,3 +1,16 @@
+@import "../colors.scss";
+@import "../fonts.scss";
+@import "../styles.scss";
+
+// .header-container {
+//   display: flex;
+//   justify-content: space-between;
+//   flex-direction: row;
+//   padding-top: 1.5rem;
+//   margin-left: 2rem;
+//   margin-right: 2rem;
+// }
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -5,13 +18,19 @@
   padding-top: 1.5rem;
   margin-left: 2rem;
   margin-right: 2rem;
-}
 
-.label {
-  font-size: 1rem;
-  color: #929AAB;
-}
+  &__title{
+    font-size: 1rem;
+    color: $light-dark2;
 
-.image {
-  align-self: center;
+    align-self: center;
+
+  }
+
+  &__logo{}
+  
+  &__burguer{
+    align-self: center;
+  }
+
 }
